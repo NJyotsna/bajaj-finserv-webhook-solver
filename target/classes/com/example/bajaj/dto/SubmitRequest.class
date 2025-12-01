@@ -1,0 +1,21 @@
+// Source code is decompiled from a .class file using FernFlower decompiler (from Intellij IDEA).
+package com.example.bajaj.dto;
+
+public class SubmitRequest {
+   private String finalQuery;
+
+   public SubmitRequest() {
+   }
+
+   public SubmitRequest(String finalQuery) {
+      this.finalQuery = finalQuery;
+   }
+
+   public String getFinalQuery() {
+      return this.finalQuery;
+   }
+
+   public void setFinalQuery(String finalQuery) {
+      this.finalQuery = finalQuery;
+   }
+}
