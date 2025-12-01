@@ -1,0 +1,25 @@
+2025-12-01T11:20:25.230Z [INFO] ----------------------invoke list_mavens----------------------
+2025-12-01T11:20:25.231Z [INFO] [Tool.invoke]({name: list_mavens, input: {
+  "projectPath": "c:\\Users\\njyot\\OneDrive\\Documents\\My Projects\\bajaj-finserv-webhook-solver"
+}}).
+2025-12-01T11:20:25.233Z [INFO] [Task.start](): Starting task toolCall
+2025-12-01T11:20:25.235Z [INFO] [Task.start](): Started task toolCall
+2025-12-01T11:20:25.236Z [INFO] [Tool.invoke] validate GitHub Copilot license.
+2025-12-01T11:20:25.237Z [WARN] "GitHub Copilot app modernization - upgrade for Java" and its tools are only available for signed-in GitHub Copilot users.
+2025-12-01T11:20:25.238Z [ERROR] [Tool.invoke] error occurs when invoking tool list_mavens: UnsupportedCopilotPlanError: "GitHub Copilot app modernization - upgrade for Java" and its tools are only available for signed-in GitHub Copilot users.. Please sign in with a GitHub account first..
+2025-12-01T11:20:25.240Z [INFO] [Task.complete](): Completing task toolCall
+2025-12-01T11:20:25.242Z [INFO] ----------------------invoked list_mavens----------------------
+2025-12-01T11:20:25.244Z [INFO] [Task.complete](): Completed task toolCall
+2025-12-01T11:21:33.222Z [INFO] ---------------------prepare install_maven----------------------
+2025-12-01T11:21:33.223Z [INFO] [Tool.prepareInvocation]({name: install_maven, input: {
+  "version": "latest"
+}}).
+2025-12-01T11:21:33.224Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2025-12-01T11:21:33.665Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Download and install Maven",
+  "confirmationMessages": {
+    "title": "Download and install Maven",
+    "message": "\nThis tool will download and install Maven latest from Apache with below settings.\n- **Version**: latest\n- **Vendor**: Apache\n- **Url**: https://dlcdn.apache.org/maven/maven-3/3.9.11/binaries/apache-maven-3.9.11-bin.zip\n- **Destination**: `C:\\Users\\njyot\\.maven`\n- **Checksum**: SHA512: 03e2d65d4483a3396980629f260e25cac0d8b6f7f2791e4dc20bc83f9514db8d0f05b0479e699a5f34679250c49c8e52e961262ded468a20de0be254d8207076\n- **Signature**: https://dlcdn.apache.org/maven/maven-3/3.9.11/binaries/apache-maven-3.9.11-bin.zip.asc\n- **Public Key**: https://downloads.apache.org/maven/KEYS\n"
+  }
+}}).
+2025-12-01T11:21:33.666Z [INFO] ----------------------prepared install_maven----------------------
