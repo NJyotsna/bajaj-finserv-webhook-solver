@@ -1,0 +1,28 @@
+// Source code is decompiled from a .class file using FernFlower decompiler (from Intellij IDEA).
+package com.example.bajaj;
+
+import java.util.Map;
+
+@SpringBootApplication
+public class Application {
+   private static final String GENERATE_WEBHOOK_URL = "https://bfhldevapigw.healthrx.co.in/hiring/generateWebhook/JAVA";
+   private static final String SUBMIT_WEBHOOK_URL = "https://bfhldevapigw.healthrx.co.in/hiring/testWebhook/JAVA";
+   private static final Map<String, String> SAMPLE_REQUEST;
+   private final RestTemplate restTemplate;
+
+   public Application() {
+      throw new Error("Unresolved compilation problems: \n\tThe import org.springframework cannot be resolved\n\tThe import org.springframework cannot be resolved\n\tThe import org.springframework cannot be resolved\n\tThe import org.springframework cannot be resolved\n\tThe import org.springframework cannot be resolved\n\tSpringBootApplication cannot be resolved to a type\n\tCommandLineRunner cannot be resolved to a type\n\tRestTemplate cannot be resolved to a type\n\tRestTemplate cannot be resolved to a type\n\tSpringApplication cannot be resolved\n\tThe method run(String...) of type Application must override or implement a supertype method\n\tHttpHeaders cannot be resolved to a type\n\tHttpHeaders cannot be resolved to a type\n\tMediaType cannot be resolved to a variable\n\tHttpEntity cannot be resolved to a type\n\tHttpEntity cannot be resolved to a type\n\tResponseEntity cannot be resolved to a type\n\tRestTemplate cannot be resolved to a type\n\tHttpMethod cannot be resolved to a variable\n\tHttpHeaders cannot be resolved to a type\n\tHttpHeaders cannot be resolved to a type\n\tMediaType cannot be resolved to a variable\n\tHttpEntity cannot be resolved to a type\n\tHttpEntity cannot be resolved to a type\n\tResponseEntity cannot be resolved to a type\n\tRestTemplate cannot be resolved to a type\n");
+   }
+
+   public static void main(String[] args) {
+      throw new Error("Unresolved compilation problem: \n\tSpringApplication cannot be resolved\n");
+   }
+
+   public void run(String... args) throws Exception {
+      throw new Error("Unresolved compilation problems: \n\tThe method run(String...) of type Application must override or implement a supertype method\n\tHttpHeaders cannot be resolved to a type\n\tHttpHeaders cannot be resolved to a type\n\tMediaType cannot be resolved to a variable\n\tHttpEntity cannot be resolved to a type\n\tHttpEntity cannot be resolved to a type\n\tResponseEntity cannot be resolved to a type\n\tRestTemplate cannot be resolved to a type\n\tHttpMethod cannot be resolved to a variable\n\tHttpHeaders cannot be resolved to a type\n\tHttpHeaders cannot be resolved to a type\n\tMediaType cannot be resolved to a variable\n\tHttpEntity cannot be resolved to a type\n\tHttpEntity cannot be resolved to a type\n\tResponseEntity cannot be resolved to a type\n\tRestTemplate cannot be resolved to a type\n");
+   }
+
+   private String getLastTwoDigits(String regNo) {
+      throw new Error("Unresolved compilation problem: \n");
+   }
+}
