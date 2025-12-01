@@ -1,0 +1,20 @@
+2025-12-01T11:19:59.992Z [INFO] ----------------------invoke list_jdks----------------------
+2025-12-01T11:19:59.993Z [INFO] [Tool.invoke]({name: list_jdks, input: {
+  "projectPath": "c:\\Users\\njyot\\OneDrive\\Documents\\My Projects\\bajaj-finserv-webhook-solver"
+}}).
+2025-12-01T11:19:59.994Z [INFO] [Task.start](): Starting task toolCall
+2025-12-01T11:19:59.995Z [INFO] [Task.start](): Started task toolCall
+2025-12-01T11:19:59.995Z [INFO] [Tool.invoke] validate GitHub Copilot license.
+2025-12-01T11:20:24.528Z [INFO] Copilot user info:undefined
+2025-12-01T11:20:24.530Z [WARN] "GitHub Copilot app modernization - upgrade for Java" and its tools are only available for signed-in GitHub Copilot users.
+2025-12-01T11:20:24.535Z [ERROR] [Tool.invoke] error occurs when invoking tool list_jdks: UnsupportedCopilotPlanError: "GitHub Copilot app modernization - upgrade for Java" and its tools are only available for signed-in GitHub Copilot users.. Please sign in with a GitHub account first..
+2025-12-01T11:20:24.537Z [INFO] [Task.complete](): Completing task toolCall
+2025-12-01T11:20:24.539Z [INFO] ----------------------invoked list_jdks----------------------
+2025-12-01T11:20:24.541Z [INFO] [Task.complete](): Completed task toolCall
+2025-12-01T11:20:25.126Z [INFO] ---------------------prepare list_mavens----------------------
+2025-12-01T11:20:25.127Z [INFO] [Tool.prepareInvocation]({name: list_mavens, input: {}}).
+2025-12-01T11:20:25.129Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2025-12-01T11:20:25.130Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "List mavens"
+}}).
+2025-12-01T11:20:25.131Z [INFO] ----------------------prepared list_mavens----------------------
